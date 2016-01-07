@@ -1,5 +1,4 @@
 'use strict';
-var dust = require('dustjs-linkedin');
 
 var extend = function extend(dust) {
 
@@ -10,12 +9,17 @@ var extend = function extend(dust) {
             operError = function() {
                 return 'error';
             }
+        console.log('valuevaluevaluevaluevalue11 ::: ', value);
         return chunk.write('XXXXX');
     }
 };
 
 if (typeof exports !== 'undefined') {
-    module.export = extend;
+
+    var dust = require('dustjs-linkedin');
+
+    module.exports = extend;
+
 } else {
     extend(dust);
 }

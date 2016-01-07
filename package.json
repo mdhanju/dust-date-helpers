@@ -22,6 +22,7 @@
   "homepage": "https://github.com/mdhanju/dust-date-helpers#readme",
   "dependencies": {
     "dustjs-helpers": "^1.7.3",
-    "dustjs-linkedin": "^2.7.2"
+    "dustjs-linkedin": "^2.7.2",
+    "moment": "^2.11.0"
   }
 }
