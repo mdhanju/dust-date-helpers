@@ -4,7 +4,6 @@ var extend = function extend(dust, moment) {
 
     dust.helpers.formatDate = function(chunk, context, bodies, params) {
         var key = params.format,
-            country = params.country,
             value = dust.helpers.tap(params.value, chunk, context),
             operError = function() {
                 return 'error';
