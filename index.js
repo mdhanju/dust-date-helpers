@@ -1,6 +1,6 @@
 'use strict';
 
-var extend = function extend(dust) {
+var extend = function extend(dust, moment) {
 
     dust.helpers.formatDate = function(chunk, context, bodies, params) {
         var key = params.format,
@@ -9,16 +9,18 @@ var extend = function extend(dust) {
             operError = function() {
                 return 'error';
             }
-        console.log('valuevaluevaluevaluevalue11 ::: ', value);
-        return chunk.write('XXXXX');
+        var formattedDate = moment(new Date(value)).format("DD MMM YYYY");
+
+        return chunk.write(formattedDate);
     }
 };
 
 if (typeof exports !== 'undefined') {
 
     var dust = require('dustjs-linkedin');
+    var moment = require('moment');
 
-    module.exports = extend;
+    module.exports = extend(dust, moment);
 
 } else {
     extend(dust);
