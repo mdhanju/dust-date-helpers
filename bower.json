@@ -19,5 +19,10 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "dustjs-helpers": "^1.7.3",
+    "dustjs-linkedin": "^2.7.2",
+    "moment": "^2.11.0"
+  }
 }
