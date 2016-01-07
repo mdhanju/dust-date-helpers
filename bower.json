@@ -1,0 +1,23 @@
+{
+  "name": "dust-date-helpers",
+  "description": "Date formators for dust templates",
+  "main": "index.js",
+  "authors": [
+    "Maninder Dhanju <singhmaninder21@gmail.com>"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "dust.js",
+    "kraken.js",
+    "node.js"
+  ],
+  "homepage": "https://github.com/mdhanju/dust-date-helpers",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

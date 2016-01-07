@@ -8,9 +8,7 @@ var extend = function extend(dust, moment) {
             operError = function() {
                 return 'error';
             }
-
         var formattedDate = moment(new Date(value)).format(key);
-
         return chunk.write(formattedDate);
     }
 };
@@ -19,7 +17,6 @@ if (typeof exports !== 'undefined') {
 
     var dust = require('dustjs-linkedin');
     var moment = require('moment');
-
     module.exports = extend(dust, moment);
 
 } else {

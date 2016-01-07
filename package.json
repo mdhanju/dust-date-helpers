@@ -1,6 +1,6 @@
 {
   "name": "dust-date-helpers",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Date formators for dust templates",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,7 @@
   },
   "keywords": [
     "dust.js",
+    "kraken.js",
     "node.js"
   ],
   "author": "Maninder Dhanju <singhmaninder21@gmail.com>",
