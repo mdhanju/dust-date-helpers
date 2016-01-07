@@ -6,6 +6,9 @@ npm install dust-date-helpers --save
 
 bower install dust-date-helpers --save
 
+Dependencies
+dustjs-helpers, dustjs-linkedin and moment
+
 
 Usage
 
