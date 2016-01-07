@@ -9,7 +9,8 @@ var extend = function extend(dust, moment) {
             operError = function() {
                 return 'error';
             }
-        var formattedDate = moment(new Date(value)).format("DD MMM YYYY");
+
+        var formattedDate = moment(new Date(value)).format(key);
 
         return chunk.write(formattedDate);
     }
