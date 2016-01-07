@@ -1,0 +1,27 @@
+{
+  "name": "dust-date-helpers",
+  "version": "1.0.0",
+  "description": "Date formators for dust templates",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdhanju/dust-date-helpers.git"
+  },
+  "keywords": [
+    "dust.js",
+    "node.js"
+  ],
+  "author": "Maninder Dhanju <singhmaninder21@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mdhanju/dust-date-helpers/issues"
+  },
+  "homepage": "https://github.com/mdhanju/dust-date-helpers#readme",
+  "dependencies": {
+    "dustjs-helpers": "^1.7.3",
+    "dustjs-linkedin": "^2.7.2"
+  }
+}
