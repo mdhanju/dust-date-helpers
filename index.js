@@ -9,6 +9,7 @@ var extend = function extend(dust, moment) {
                 return 'error';
             }
         var formattedDate = moment(new Date(value)).format(key);
+        if (formattedDate === 'Invalid date') formattedDate = 'not available';
         return chunk.write(formattedDate);
     }
 };
