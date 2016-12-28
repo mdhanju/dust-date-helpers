@@ -12,6 +12,11 @@ dustjs-helpers, dustjs-linkedin and moment
 
 Usage
 
+#For currency
+
+{@formatCurrency format="$0,0" value="{value}"/}
+
+#For date
 {@formatDate format="DD MMM YYYY" value="{endDate}"/}
 
 Formats supported

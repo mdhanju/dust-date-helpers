@@ -1,7 +1,7 @@
 {
   "name": "dust-date-helpers",
-  "version": "1.0.8",
-  "description": "Date formators for dust templates",
+  "version": "2.0.0",
+  "description": "Dust templates helpers for date and currency formators.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -24,6 +24,7 @@
   "dependencies": {
     "dustjs-helpers": "^1.7.3",
     "dustjs-linkedin": "^2.7.2",
-    "moment": "^2.11.0"
+    "moment": "^2.11.0",
+    "numeral": "^2.0.4"
   }
 }
