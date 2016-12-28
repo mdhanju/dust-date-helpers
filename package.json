@@ -1,6 +1,6 @@
 {
   "name": "dust-date-helpers",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Date formators for dust templates",
   "main": "index.js",
   "scripts": {
